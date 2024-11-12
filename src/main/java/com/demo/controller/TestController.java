@@ -18,4 +18,9 @@ public class TestController {
     public String getDate() {
         return "这是一个Docker前后台部署测试";
     }
+
+    @GetMapping("/getDate1")
+    public String getDate1() {
+        return "这是一个Docker前后台部署测试1111111";
+    }
 }
